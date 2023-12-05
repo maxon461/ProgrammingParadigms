@@ -1,0 +1,57 @@
+2023.12.02 21:29:22 INFO  Started: Metals version 1.1.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab1' for client Visual Studio Code 1.83.0.
+2023.12.02 21:29:23 INFO  Attempting to connect to the build server...
+2023.12.02 21:29:23 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.02 21:29:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab1/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.02 21:29:23 INFO  time: Connected to build server in 0.51s
+2023.12.02 21:29:23 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.02 21:29:25 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab1/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.02 21:29:26 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/fx/38nstzn93hg_qr9gv26wxxj00000gn/T/metals5669564521940111917/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.02 21:29:26 INFO  time: indexed workspace in 1.25s
+2023.12.02 21:29:27 INFO  [info] welcome to sbt 1.9.6 (Eclipse Adoptium Java 17.0.4.1)
+2023.12.02 21:29:27 INFO  [info] loading settings for project helloscala-build-build from metals.sbt ...
+2023.12.02 21:29:27 INFO  [info] loading project definition from /Users/maxon462/Desktop/Paradygmaty/lab1/helloscala/project/project
+2023.12.02 21:29:28 INFO  [info] loading settings for project helloscala-build from metals.sbt ...
+2023.12.02 21:29:28 INFO  [info] loading project definition from /Users/maxon462/Desktop/Paradygmaty/lab1/helloscala/project
+2023.12.02 21:29:29 INFO  [success] Generated .bloop/helloscala-build.json
+2023.12.02 21:29:29 INFO  [success] Total time: 1 s, completed Dec 2, 2023, 9:29:29 PM
+2023.12.02 21:29:29 INFO  [info] loading settings for project root from build.sbt ...
+2023.12.02 21:29:29 INFO  [info] set current project to HelloScala (in build file:/Users/maxon462/Desktop/Paradygmaty/lab1/helloscala/)
+2023.12.02 21:29:29 INFO  [success] Generated .bloop/root.json
+2023.12.02 21:29:29 INFO  [success] Generated .bloop/root-test.json
+2023.12.02 21:29:29 INFO  [success] Total time: 0 s, completed Dec 2, 2023, 9:29:30 PM
+2023.12.02 21:29:30 INFO  time: ran 'sbt bloopInstall' in 3.84s
+2023.12.02 21:29:30 INFO  Disconnecting from Bloop session...
+2023.12.02 21:29:30 INFO  Shut down connection with build server.
+2023.12.02 21:29:30 INFO  Attempting to connect to the build server...
+2023.12.02 21:29:30 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.02 21:29:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab1/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.02 21:29:30 INFO  time: Connected to build server in 22ms
+2023.12.02 21:29:30 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.02 21:29:30 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 3.23s
+2023.12.02 21:29:30 INFO  time: indexed workspace in 0.85s
+2023.12.02 21:29:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.76s
+2023.12.02 21:29:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.54s
+2023.12.02 21:29:32 INFO  time: code lens generation in 1.46s
+2023.12.02 21:29:32 INFO  time: code lens generation in 1.9s
+2023.12.02 21:29:32 INFO  time: code lens generation in 1.9s
+2023.12.02 21:29:32 INFO  time: code lens generation in 1.9s
+2023.12.02 21:32:51 INFO  Shutting down server
+2023.12.02 21:32:51 INFO  shutting down Metals
+2023.12.02 21:32:51 INFO  Shut down connection with build server.
+2023.12.02 21:32:51 INFO  Exiting server
+2023.12.04 16:01:36 INFO  Started: Metals version 1.1.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab1' for client Visual Studio Code 1.83.0.
+2023.12.04 16:01:37 INFO  Attempting to connect to the build server...
+2023.12.04 16:01:37 INFO  skipping build import with status 'Installed'
+2023.12.04 16:01:37 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.04 16:01:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab1/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.04 16:01:37 INFO  time: Connected to build server in 0.46s
+2023.12.04 16:01:37 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.04 16:01:39 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab1/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.04 16:01:40 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab1/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.04 16:01:40 INFO  time: indexed workspace in 1.03s
+2023.12.04 16:01:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.74s
+2023.12.04 16:01:43 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.61s
+2023.12.04 17:09:23 INFO  Shutting down server
+2023.12.04 17:09:23 INFO  shutting down Metals
+2023.12.04 17:09:23 INFO  Shut down connection with build server.
+2023.12.04 17:09:23 INFO  Exiting server

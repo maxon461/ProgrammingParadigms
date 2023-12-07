@@ -1,0 +1,3104 @@
+2023.11.10 10:30:28 INFO  Started: Metals version 1.1.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab2' for client Visual Studio Code 1.83.0.
+2023.11.10 10:30:29 INFO  Attempting to connect to the build server...
+2023.11.10 10:30:29 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.11.10 10:30:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab2/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.10 10:30:29 INFO  time: Connected to build server in 0.79s
+2023.11.10 10:30:29 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 10:30:31 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.10 10:30:33 INFO  time: indexed workspace in 1.31s
+2023.11.10 10:30:33 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc
+2023.11.10 10:30:33 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/fx/38nstzn93hg_qr9gv26wxxj00000gn/T/metals18375841548015754509/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.10 10:30:34 INFO  [info] welcome to sbt 1.9.6 (Eclipse Adoptium Java 17.0.4.1)
+2023.11.10 10:30:35 INFO  [info] loading settings for project helloscala-build-build from metals.sbt ...
+2023.11.10 10:30:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.96s
+2023.11.10 10:30:36 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc
+2023.11.10 10:30:36 INFO  [info] loading project definition from /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/project/project
+2023.11.10 10:30:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.72s
+2023.11.10 10:30:37 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.10 10:30:37 INFO  time: code lens generation in 1.19s
+2023.11.10 10:30:37 INFO  time: code lens generation in 1.19s
+2023.11.10 10:30:36 INFO  [info] loading settings for project helloscala-build from metals.sbt ...
+2023.11.10 10:30:36 INFO  [info] loading project definition from /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/project
+2023.11.10 10:30:38 INFO  [success] Generated .bloop/helloscala-build.json
+2023.11.10 10:30:38 INFO  [success] Total time: 1 s, completed Nov 10, 2023, 10:30:38 AM
+2023.11.10 10:30:38 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.10 10:30:38 INFO  [info] set current project to HelloScala (in build file:/Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/)
+2023.11.10 10:30:38 INFO  [success] Generated .bloop/root-test.json
+2023.11.10 10:30:38 INFO  [success] Generated .bloop/root.json
+2023.11.10 10:30:38 INFO  [success] Total time: 0 s, completed Nov 10, 2023, 10:30:39 AM
+2023.11.10 10:30:39 INFO  time: ran 'sbt bloopInstall' in 5.76s
+2023.11.10 10:30:39 INFO  Disconnecting from Bloop session...
+2023.11.10 10:30:39 INFO  Shut down connection with build server.
+2023.11.10 10:30:39 INFO  Attempting to connect to the build server...
+2023.11.10 10:30:39 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.11.10 10:30:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab2/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.10 10:30:39 INFO  time: Connected to build server in 21ms
+2023.11.10 10:30:39 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.10 10:30:39 INFO  time: indexed workspace in 0.67s
+2023.11.10 10:30:39 INFO  compiling root-test (1 scala source)
+2023.11.10 10:30:39 INFO  time: compiled root-test in 0.72s
+2023.11.10 10:30:41 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.52s
+2023.11.10 10:30:41 INFO  time: code lens generation in 1.27s
+2023.11.10 10:46:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.33s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:2: identifier expected but ] found
+[]
+ ^
+2023.11.10 15:21:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.2s
+2023.11.10 15:21:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.3s
+2023.11.10 15:21:19 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.28s
+2023.11.10 15:21:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.21s
+2023.11.10 15:21:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.22s
+2023.11.10 15:21:30 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.21s
+2023.11.10 15:21:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.2s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:53:29: identifier expected but end of file found
+// [x1,x2,...,y1,xn,y2,xn+1]
+                            ^
+2023.11.10 15:22:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 94ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interlea` to method by adding `: Unit =`.
+def interlea
+    ^^^^^^^^
+2023.11.10 15:22:03 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 92ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave
+    ^^^^^^^^^^
+2023.11.10 15:22:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave
+    ^^^^^^^^^^
+2023.11.10 15:22:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 84ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A]
+    ^^^^^^^^^^
+2023.11.10 15:22:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 83ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A]()
+    ^^^^^^^^^^
+2023.11.10 15:22:11 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 80ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A](list1 : List)
+    ^^^^^^^^^^
+2023.11.10 15:22:15 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 80ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A](list1 : List[A])
+    ^^^^^^^^^^
+2023.11.10 15:22:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 76ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:42: : expected but ) found
+def interleave[A](list1 : List[A] , list2)
+                                         ^
+2023.11.10 15:22:21 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 86ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A](list1 : List[A] , list2 : List[A])
+    ^^^^^^^^^^
+2023.11.10 15:22:26 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 78ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:55: identifier expected but ) found
+def interleave[A](list1 : List[A] , list2 : List[A] , )
+                                                      ^
+2023.11.10 15:22:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 74ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) 
+    ^^^^^^^^^^
+2023.11.10 15:22:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 89ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:71: identifier expected but ] found
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[]
+                                                                      ^
+2023.11.10 15:22:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 94ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:5: 
+Declaration of method interleave not allowed here: only classes can have declared but undefined members
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A]
+    ^
+2023.11.10 15:22:46 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:76: 
+Found:    Unit
+Required: List[A]
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A] = {
+                                                                           ^
+2023.11.10 15:22:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+Nov 10, 2023 3:22:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:55:29: } expected but end of file found
+// [x1,x2,...,y1,xn,y2,xn+1]
+                            ^
+2023.11.10 15:24:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 90ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:53:29: illegal start of simple expression
+// [x1,x2,...,y1,xn,y2,xn+1]
+                            ^
+2023.11.10 15:24:53 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 78ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:76: 
+Found:    Unit
+Required: List[A]
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A] = ()
+                                                                           ^^
+2023.11.10 15:25:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:76: 
+Found:    (List[A], List[A])
+Required: List[A]
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A] = (list1,list2)
+                                                                           ^^^^^^^^^^^^^
+2023.11.10 15:25:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:76: 
+Found:    (List[A], List[A], Int)
+Required: List[A]
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A] = (list1,list2,n)
+                                                                           ^^^^^^^^^^^^^^^
+2023.11.10 15:25:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 95ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:91: 
+Found:    Unit
+Required: Int
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A] = (list1,list2,n){
+                                                                                          ^
+2023.11.10 15:25:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:89: match statement requires cases
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A] = (list1,list2,n) match {
+                                                                                        ^
+2023.11.10 15:25:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 84ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:89: match statement requires cases
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A] = (list1,list2,n) match {
+                                                                                        ^
+2023.11.10 15:25:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 72ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:8: 
+Found:    Unit
+Required: (List[A], List[A], Int)
+pattern type is incompatible with expected type
+  case () =>
+       ^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:11: 
+Found:    Unit
+Required: List[A]
+  case () =>
+          ^^
+2023.11.10 15:26:19 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 99ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:12: 
+Found:    Unit
+Required: List[A]
+  case (h) =>
+           ^^
+2023.11.10 15:26:23 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:31: illegal start of simple pattern
+  case (h :: tail , h :: tail,) =>
+                              ^
+2023.11.10 15:26:30 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 77ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:21: 
+duplicate pattern variable: h
+  case (h :: tail , h :: tail, n) =>
+                    ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+duplicate pattern variable: tail
+  case (h :: tail , h :: tail, n) =>
+                         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:35: 
+Found:    Unit
+Required: List[A]
+  case (h :: tail , h :: tail, n) =>
+                                  ^^
+2023.11.10 15:26:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 96ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:27: 
+duplicate pattern variable: tail
+  case (h1 :: tail , h :: tail, n) =>
+                          ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:36: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail , h :: tail, n) =>
+                                   ^^
+2023.11.10 15:26:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:38: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail1 , h2 :: tail, n) =>
+                                     ^^
+2023.11.10 15:26:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 96ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:39: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail1 , h2 :: tail2, n) =>
+                                      ^^
+2023.11.10 15:26:46 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 94ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:39: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail1 , h2 :: tail2, n) => 
+                                      ^^
+2023.11.10 15:26:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 95ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:53:1: then expected but } found
+}
+^
+2023.11.10 15:26:54 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 66ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:53:1: then expected but } found
+}
+^
+2023.11.10 15:27:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 90ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:53:1: then expected but } found
+}
+^
+2023.11.10 15:27:23 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 91ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:53:1: then expected but } found
+}
+^
+2023.11.10 15:27:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 66ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:53:1: then expected but } found
+}
+^
+2023.11.10 15:27:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 77ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:39: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail1 , h2 :: tail2, n) => 
+                                      ^^
+2023.11.10 15:27:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:47: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail1 , h2 :: tail2, n) if n<=1 => 
+                                              ^^
+2023.11.10 15:27:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:47: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail1 , h2 :: tail2, n) if n<=1 =>  
+                                              ^^
+2023.11.10 15:27:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 92ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:47: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail1 , h2 :: tail2, n) if n>=1 =>  
+                                              ^^
+2023.11.10 15:28:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:47: 
+Found:    Unit
+Required: List[A]
+  case (h1 :: tail1 , h2 :: tail2, n) if n>=1 =>
+                                              ^^
+2023.11.10 15:28:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:52:5: 
+missing argument for parameter list1 of method interleave in class MdocApp: (list1: List[A], list2: List[A], n: Int): List[A]
+    interleave()  
+    ^^^^^^^^^^^^
+2023.11.10 15:28:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 89ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:52:1: illegal start of simple expression
+}
+^
+2023.11.10 15:29:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:54:29: illegal start of simple expression
+// [x1,x2,...,y1,xn,y2,xn+1]
+                            ^
+2023.11.10 15:29:21 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 70ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:50:76: 
+Found:    Unit
+Required: List[A]
+def interleave[A](list1 : List[A] , list2 : List[A] , n : Int) : List[A] = {
+                                                                           ^
+2023.11.10 15:29:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl
+  ^^^^^^
+2023.11.10 15:29:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl()
+  ^^^^^^
+2023.11.10 15:29:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 79ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2)
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2)
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2)
+                         ^^^^
+2023.11.10 15:29:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 83ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2: List)
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2: List)
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:32: 
+Missing type parameter for List
+  interl(lst1: List[A] , lst2: List)
+                               ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2: List)
+                         ^^^^
+2023.11.10 15:29:47 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2: List[A])
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2: List[A])
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2: List[A])
+                         ^^^^
+2023.11.10 15:29:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 79ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:42: illegal start of simple expression
+  interl(lst1: List[A] , lst2: List[A] , )
+                                         ^
+2023.11.10 15:29:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 63ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:50: illegal start of simple expression
+  interl(lst1: List[A] , lst2: List[A] , n:Int , )
+                                                 ^
+2023.11.10 15:29:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 74ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2: List[A] , n:Int , Li)
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2: List[A] , n:Int , Li)
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2: List[A] , n:Int , Li)
+                         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:50: 
+Not found: Li
+  interl(lst1: List[A] , lst2: List[A] , n:Int , Li)
+                                                 ^^
+2023.11.10 15:30:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A])
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A])
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A])
+                         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:50: 
+Not found: res
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A])
+                                                 ^^^
+2023.11.10 15:30:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 82ms
+[31merror[39m: 
+hello.worksheet.sc:73 (mdoc generated code) 
+ indented definitions expected, eof found
+    }
+
+
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : 
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : 
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : 
+                         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:50: 
+Not found: res
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : 
+                                                 ^^^
+2023.11.10 15:30:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:66: 
+Missing type parameter for List
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List
+                                                                 ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List
+                         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:50: 
+Not found: res
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List
+                                                 ^^^
+2023.11.10 15:30:30 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:66: 
+Missing type parameter for List
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List{}
+                                                                 ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List{}
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List{}
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List{}
+                         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:50: 
+Not found: res
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List{}
+                                                 ^^^
+2023.11.10 15:30:32 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:3: 
+Not found: interl
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A]
+  ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:10: 
+Not found: lst1
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A]
+         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:26: 
+Not found: lst2
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A]
+                         ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:50: 
+Not found: res
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A]
+                                                 ^^^
+2023.11.10 15:30:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 83ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A] = ()
+                                                                         ^
+2023.11.10 15:30:38 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 82ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A] = (li)
+                                                                         ^
+2023.11.10 15:30:43 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 83ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A] = (l)
+                                                                         ^
+2023.11.10 15:30:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 80ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A] = (lst1)
+                                                                         ^
+2023.11.10 15:30:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 62ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A] = (lst1 , lst2 , )
+                                                                         ^
+2023.11.10 15:30:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A] = (lst1 , lst2 , n)
+                                                                         ^
+2023.11.10 15:30:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 82ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , n:Int , res: List[A]) : List[A] = (lst1 , lst2 , )
+                                                                         ^
+2023.11.10 15:31:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 68ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , )
+                                                                         ^
+2023.11.10 15:31:15 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 79ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x)
+                                                                         ^
+2023.11.10 15:31:19 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 99ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:31:23 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:31:41 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 67ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:31:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 68ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:32:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:32:26 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 85ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:32:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:32:32 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:32:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:32:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:32:47 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 96ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:32:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 77ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:33:38 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 59ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:33:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:33:41 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 70ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:33:50 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 97ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:06 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 92ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:11 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 59ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:18 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 62ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 66ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:28 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 74ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 55ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 79ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:38 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 62ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:74: ; expected but = found
+  interl(lst1: List[A] , lst2: List[A] , x:Int , res: List[A]) : List[A] = (lst1 , lst2 , x) match {
+                                                                         ^
+2023.11.10 15:34:53 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 70ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:63:1: end of file expected but } found
+}
+^
+2023.11.10 15:35:30 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 74ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:51:53: identifier expected but ) found
+  def interl(lst1: List[A], lst2: List[A], x: Int , ): List[A] = (lst1, lst2, x) match {
+                                                    ^
+2023.11.10 15:35:41 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 54ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:63:1: end of file expected but } found
+}
+^
+2023.11.10 15:36:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 62ms
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:51:65: 
+match may not be exhaustive.
+
+It would fail on pattern case: (List(_, _*), List(_, _*), _)
+
+  def interl(lst1: List[A], lst2: List[A], x: Int  ): List[A] = (lst1, lst2, x) match {
+                                                                ^^^^^^^^^^^^^^^
+2023.11.10 15:37:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.22s
+2023.11.10 15:37:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:37:38 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:37:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 15:37:54 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.21s
+2023.11.10 15:38:22 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:72:51: illegal start of simple expression
+val test2 = interleave(List(1, 2, 3 , 4 , 5 ,6 ), , List(4, 5, 6)) // Expected: List(1, 4, 2, 5, 3, 6)
+                                                  ^
+2023.11.10 15:38:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 63ms
+2023.11.10 15:38:30 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.10 15:38:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.10 15:39:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:39:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:39:47 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.21s
+2023.11.10 15:40:14 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.10 15:41:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:42:01 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.10 15:42:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.19s
+2023.11.10 15:43:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.10 15:43:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:43:58 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:44:03 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.21s
+2023.11.10 15:44:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.19s
+2023.11.10 15:45:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:45:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:75:38: illegal start of simple expression
+val test1 = interleave(List(1, 3, 5),, List(2, 4)) 
+                                     ^
+2023.11.10 15:45:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 78ms
+2023.11.10 15:45:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:65: 
+Not found: h2
+    case (_, _, _ ) => interleaveHelper(lst1, n - 1, tail2) ::: h2 :: lst1
+                                                                ^^
+2023.11.10 15:45:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 86ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:64: 
+Not found: h2
+    case (_, _, _) => interleaveHelper(lst1, n - 1, tail2) ::: h2 :: lst1
+                                                               ^^
+2023.11.10 15:45:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 97ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:53: 
+Not found: tail2
+    case (_, _, _) => interleaveHelper(lst1, n - 1, tail2)
+                                                    ^^^^^
+2023.11.10 15:45:50 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 93ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:53: 
+Not found: tail2
+    case (_, _, _) => interleaveHelper(lst1, n - 1, tail2)
+                                                    ^^^^^
+2023.11.10 15:45:54 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 95ms
+2023.11.10 15:46:01 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:46:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.10 15:46:21 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:46:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:65:25: illegal start of simple pattern
+    case (h :: tail, 1, ) => h :: interleaveHelper(tail, n, lst2)
+                        ^
+2023.11.10 15:46:41 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+2023.11.10 15:46:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:65:28: 
+Not found: type tail2
+    case (h :: tail, 1, h2:tail2) => h :: interleaveHelper(tail, n, lst2)
+                           ^^^^^
+2023.11.10 15:46:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 76ms
+2023.11.10 15:46:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.10 15:46:50 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 15:47:19 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:47:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:47:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:5: => expected but case found
+    case (h :: tail, 1, h2 :: tail2) => h :: h2 :: interleaveHelper(tail, n, lst2)
+    ^^^^
+2023.11.10 15:47:53 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 57ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:5: => expected but case found
+    case (h :: tail, 1, h2 :: tail2) => h :: h2 :: interleaveHelper(tail, n, lst2)
+    ^^^^
+2023.11.10 15:47:54 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 50ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:65:14: illegal start of simple pattern
+    case(h:: )
+             ^
+2023.11.10 15:47:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 54ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:65:15: illegal start of simple pattern
+    case(h :: )
+              ^
+2023.11.10 15:47:58 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 55ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:5: => expected but case found
+    case (h :: tail, 1, h2 :: tail2) => h :: h2 :: interleaveHelper(tail, n, lst2)
+    ^^^^
+2023.11.10 15:48:02 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 63ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:5: => expected but case found
+    case (h :: tail, 1, h2 :: tail2) => h :: h2 :: interleaveHelper(tail, n, lst2)
+    ^^^^
+2023.11.10 15:48:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:5: => expected but case found
+    case (h :: tail, 1, h2 :: tail2) => h :: h2 :: interleaveHelper(tail, n, lst2)
+    ^^^^
+2023.11.10 15:48:08 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 53ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:5: => expected but case found
+    case (h :: tail, 1, h2 :: tail2) => h2 :: h2 :: interleaveHelper(tail, n, lst2)
+    ^^^^
+2023.11.10 15:48:23 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:66:5: => expected but case found
+    case (h :: tail, 1, h2 :: tail2) => h2 :: h :: interleaveHelper(tail, n, lst2)
+    ^^^^
+2023.11.10 15:48:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:65:39: 
+Found:    Unit
+Required: List[A]
+    case(h :: tail , 0 , h2 :: tail2) =>  
+                                      ^^
+2023.11.10 15:48:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 78ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:65:39: 
+Found:    Unit
+Required: List[A]
+    case(h :: tail , 0 , h2 :: tail2) =>  
+                                      ^^
+2023.11.10 15:48:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+2023.11.10 15:48:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 15:48:54 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:49:26 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:51:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:51:01 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:73:40: illegal start of simple expression
+val test2 = interleave(List(1, 2, 3  , ), 2, List(4, 5, 6)) 
+                                       ^
+2023.11.10 15:51:03 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 51ms
+2023.11.10 15:51:08 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 15:51:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+2023.11.10 15:51:28 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+2023.11.10 15:51:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:51:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:51:39 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 15:54:47 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:54:54 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+2023.11.10 15:56:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 15:56:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:15:78: 
+missing argument for parameter lista of method dlugoscListy: (lista: List[A]): Int
+    if (indexA < 0 || indexA >= dlugoscListy(lst) || indexB < 0 || indexB >= dlugoscListy()) lst
+                                                                             ^^^^^^^^^^^^^^
+2023.11.10 15:56:23 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:56:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 15:58:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.19s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:26: identifier expected but , found
+def interleave[A , B](k: , position: Int, list2: List[A]): List[A] = {
+                         ^
+2023.11.10 15:58:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 54ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:25: identifier expected but ) found
+def interleave[A , B](k:): List[A] = {
+                        ^
+2023.11.10 15:58:55 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 66ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:26: identifier expected but ) found
+def interleave[A , B](k: ): List[A] = {
+                         ^
+2023.11.10 15:58:58 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:27: identifier expected but ) found
+def interleave[A , B](k:A,): List[A] = {
+                          ^
+2023.11.10 15:59:01 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 55ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:28: : expected but ) found
+def interleave[A , B](k:A,B): List[A] = {
+                           ^
+2023.11.10 15:59:02 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 54ms
+Nov 10, 2023 3:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3069
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:28: : expected but , found
+def interleave[A , B](k:A,B,A): List[A] = {
+                           ^
+2023.11.10 15:59:04 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 66ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:28: : expected but , found
+def interleave[A , B](k:A,B, A): List[A] = {
+                           ^
+2023.11.10 15:59:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:29: : expected but , found
+def interleave[A , B](k:A,B , A): List[A] = {
+                            ^
+2023.11.10 15:59:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:31: : expected but , found
+def interleave[A , B](k:A , B , A): List[A] = {
+                              ^
+2023.11.10 15:59:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:30: : expected but ) found
+def interleave[A , B](k:A , B) , A): List[A] = {
+                             ^
+2023.11.10 15:59:21 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 62ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:36: : expected but ) found
+def interleave[A , B](k:(A , B) , A): List[A] = {
+                                   ^
+2023.11.10 15:59:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 52ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:67:36: : expected but ) found
+def interleave[A , B](k:(A , B) , A)  = {
+                                   ^
+2023.11.10 15:59:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 50ms
+2023.11.10 15:59:59 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:5: Procedure syntax is not supported. Convert procedure `inter` to method by adding `: Unit =`.
+def inter
+    ^^^^^
+2023.11.10 16:00:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave
+    ^^^^^^^^^^
+2023.11.10 16:00:06 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 49ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A,B,c]
+    ^^^^^^^^^^
+2023.11.10 16:00:18 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 52ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A,B,C]
+    ^^^^^^^^^^
+2023.11.10 16:00:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 56ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A,B,C] 
+    ^^^^^^^^^^
+2023.11.10 16:00:21 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 55ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A,B,C]()
+    ^^^^^^^^^^
+2023.11.10 16:00:26 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 66ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:25: identifier expected but ) found
+def interleave[A,B,C](k:)
+                        ^
+2023.11.10 16:00:28 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 49ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:28: illegal literal type (), use Unit instead
+def interleave[A,B,C](k:(()))
+                           ^
+2023.11.10 16:00:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 56ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A,B,C](k:((A,B)))
+    ^^^^^^^^^^
+2023.11.10 16:00:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 52ms
+Nov 10, 2023 4:00:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3341
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:5: Procedure syntax is not supported. Convert procedure `interleave` to method by adding `: Unit =`.
+def interleave[A,B,C](k:((A,B), C))
+    ^^^^^^^^^^
+2023.11.10 16:00:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 51ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:84:7: illegal start of simple expression
+//1 , 
+      ^
+2023.11.10 16:00:39 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 50ms
+2023.11.10 16:00:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:83:1: illegal start of simple pattern
+}
+^
+2023.11.10 16:00:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:83:1: = expected but } found
+}
+^
+2023.11.10 16:00:59 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 59ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:83:1: = expected but } found
+}
+^
+2023.11.10 16:01:02 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 56ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:83:1: = expected but } found
+}
+^
+2023.11.10 16:01:04 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 55ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:82:17: illegal start of simple pattern
+  val ((list1 , ))
+                ^
+2023.11.10 16:01:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 57ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:83:1: = expected but } found
+}
+^
+2023.11.10 16:01:11 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 52ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:83:1: = expected but } found
+}
+^
+2023.11.10 16:01:15 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 51ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:83:1: illegal start of simple expression
+}
+^
+2023.11.10 16:01:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 52ms
+2023.11.10 16:01:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:31: 
+Not found: type C
+def interleave[A,B](k:((A,B), C)) = {
+                              ^
+2023.11.10 16:01:26 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 16:01:28 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.10 16:01:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:91:20: 
+Found:    (list1 : A)
+Required: List[A]
+  interleaveHelper(list1, position, list2)
+                   ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:91:27: 
+Found:    (position : B)
+Required: Int
+  interleaveHelper(list1, position, list2)
+                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:91:37: 
+Found:    (list2 : A)
+Required: List[A]
+  interleaveHelper(list1, position, list2)
+                                    ^^^^^
+2023.11.10 16:01:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+2023.11.10 16:01:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.19s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:25: 
+Not found: type ListA
+def interleave[A,B](k:((ListA,B), A)) = {
+                        ^^^^^
+2023.11.10 16:01:59 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 85ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:30: identifier expected but ] found
+def interleave[A,B](k:((List[],B), A)) = {
+                             ^
+2023.11.10 16:02:03 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 49ms
+2023.11.10 16:02:04 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:43: ] expected but ) found
+def interleave[A,B](k:((List[A],B), List[A)) = {
+                                          ^
+2023.11.10 16:02:08 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+2023.11.10 16:02:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 16:02:11 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:91:27: 
+Found:    (position : B)
+Required: Int
+  interleaveHelper(list1, position, list2)
+                          ^^^^^^^^
+2023.11.10 16:02:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:81:31: 
+Not found: type B
+def interleave[A](k:((List[A],B), List[A])) = {
+                              ^
+2023.11.10 16:02:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 93ms
+2023.11.10 16:02:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.2s
+Nov 10, 2023 4:02:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3666
+2023.11.10 16:02:56 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 5h 32m 17.031s)
+2023.11.10 16:02:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.10 16:02:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:5: 
+Double definition:
+val test2: List[Int] in class MdocApp at line 90 and
+val test2: List[Int] in class MdocApp at line 109
+
+val test2 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+    ^
+2023.11.10 16:02:59 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+2023.11.10 16:03:03 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:03:11 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:1: illegal start of simple pattern
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+^^^
+2023.11.10 16:03:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 79ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:1: illegal start of simple expression
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+^^^
+2023.11.10 16:03:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:18: illegal start of simple expression
+val k = (list1 , )
+                 ^
+2023.11.10 16:03:58 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 63ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:18: 
+Not found: n
+val k = (list1 , n )
+                 ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:04:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:18: 
+Not found: n
+val k = (list1 , n , list2)
+                 ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:04:03 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: = expected but \n found
+val  (list1 , n , list2)
+                        ^
+2023.11.10 16:04:08 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 54ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k;
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k;
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k;
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k;
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:04:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:04:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:1: illegal start of simple expression
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+^^^
+2023.11.10 16:04:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 54ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:13: 
+Not found: type Lis
+val list1 : Lis
+            ^^^
+[31merror[39m: 
+hello.worksheet.sc:99 (mdoc generated code) 
+ Declaration of value list1 not allowed here: only classes can have declared but undefined members
+      val list1 : Lis
+
+
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:04:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: 
+hello.worksheet.sc:99 (mdoc generated code) 
+ Declaration of value list1 not allowed here: only classes can have declared but undefined members
+      val list1 : List[Int]
+
+
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:04:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:25: 
+Found:    (Int, Int, Int, Int)
+Required: List[Int]
+val list1 : List[Int] = (1,2,3,4)
+                        ^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:5: 
+Double definition:
+val list1: List[Int] in class MdocApp at line 33 and
+val list1: List[Int] in class MdocApp at line 98
+
+val list1 : List[Int] = (1,2,3,4)
+    ^
+2023.11.10 16:04:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:1: identifier expected but val found
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+^^^
+2023.11.10 16:04:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 56ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:1: illegal start of simple expression
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+^^^
+2023.11.10 16:04:55 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:9: 
+Not found: type int
+val n : int = 1
+        ^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:04:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:24: 
+Found:    (List[Int], Int, List[Int])
+Required: ((List[Any], Int), List[Any])
+val test3 = interleave(List(1, 2 , 3 ), 1, List(4, 5, 6)) 
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.10 16:05:01 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+2023.11.10 16:05:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+2023.11.10 16:05:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.10 16:05:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+2023.11.10 16:06:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:9: 
+Not found: type int
+val n : int = 1
+        ^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+2023.11.10 16:06:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+2023.11.10 16:06:19 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+2023.11.10 16:06:22 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: 
+hello.worksheet.sc:116 (mdoc generated code) 
+ Declaration of value list1 not allowed here: only classes can have declared but undefined members
+      val list1 : List[Int]
+
+
+2023.11.10 16:06:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:25: 
+Found:    collection.immutable.List.type
+Required: List[Int]
+val list1 : List[Int] = List 
+                        ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:5: 
+Double definition:
+val list1: List[Int] in class MdocApp at line 33 and
+val list1: List[Int] in class MdocApp at line 115
+
+val list1 : List[Int] = List 
+    ^
+2023.11.10 16:06:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:5: 
+Double definition:
+val list1: List[Int] in class MdocApp at line 33 and
+val list1: List[Int] in class MdocApp at line 115
+
+val list1 : List[Int] = List(1,2,3)
+    ^
+2023.11.10 16:06:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:94:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:5: 
+Double definition:
+val list1: List[Int] in class MdocApp at line 33 and
+val list1: List[Int] in class MdocApp at line 115
+
+val list1 : List[Int] = List(1,2,3)
+    ^
+2023.11.10 16:06:52 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:5: 
+Double definition:
+val list1: List[Int] in class MdocApp at line 33 and
+val list1: List[Int] in class MdocApp at line 109
+
+val list1 : List[Int] = List(1,2,3)
+    ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:97:5: 
+Double definition:
+val n: Int in class MdocApp at line 105 and
+val n: Int in class MdocApp at line 119
+
+val n : Int = 1
+    ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:98:5: 
+Double definition:
+val list1: List[Int] in class MdocApp at line 109 and
+val list1: List[Int] in class MdocApp at line 123
+
+val list1 : List[Int] = List(1,2,3)
+    ^
+2023.11.10 16:07:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:28: 
+Not found: k
+val  (list1 , n , list2) = k
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:15: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+              ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:19: 
+Recursive value $1$ needs type
+val  (list1 , n , list2) = k
+                  ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:25: 
+Recursive value list1 needs type
+val  (list1 , n , list2) = k
+                        ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:97:5: 
+Double definition:
+val list1: List[Int] in class MdocApp at line 33 and
+val list1: List[Int] in class MdocApp at line 115
+
+val list1 : List[Int] = List(1,2,3)
+    ^
+2023.11.10 16:07:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:5: 
+Double definition:
+val result: (List[Int], List[Int], List[Int]) in class MdocApp at line 73 and
+val result: List[Int] in class MdocApp at line 109
+
+val result = interleave(exampleInput)
+    ^
+2023.11.10 16:09:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:96:5: 
+Double definition:
+val result: (List[Int], List[Int], List[Int]) in class MdocApp at line 73 and
+val result: List[Int] in class MdocApp at line 109
+
+val result = interleave(exampleInput)
+    ^
+2023.11.10 16:09:38 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+2023.11.10 16:09:52 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.10 16:10:08 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 16:10:21 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 16:19:59 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.10 16:20:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:10:31: 
+Not found: reszta
+  case _  => 1 + dlugoscListy(reszta)
+                              ^^^^^^
+2023.11.10 16:21:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+2023.11.10 16:21:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 16:38:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.21s
+2023.11.10 16:38:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.10 16:38:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.10 16:38:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:41:22: 
+Not found: hfirst
+      splitRec(tail, hfirst :+ h, second, third, c + 1)//TODO laczenie 
+                     ^^^^^^
+2023.11.10 16:38:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:41:23: left- and right-associative operators with same precedence may not be mixed
+      splitRec(tail, h:: first :+ h, second, third, c + 1)//TODO laczenie 
+                      ^^
+2023.11.10 16:38:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:41:25: identifier expected but : found
+      splitRec(tail, h: : first :+ h, second, third, c + 1)//TODO laczenie 
+                        ^
+2023.11.10 16:38:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:41:26: identifier expected but : found
+      splitRec(tail, h : : first :+ h, second, third, c + 1)//TODO laczenie 
+                         ^
+2023.11.10 16:38:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 50ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:41:24: left- and right-associative operators with same precedence may not be mixed
+      splitRec(tail, h :: first :+ h, second, third, c + 1)//TODO laczenie 
+                       ^^
+2023.11.10 16:38:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 56ms
+2023.11.10 16:38:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:43:37: 
+expression expected but ',' found
+      splitRec(tail, first, second h, third, c + 1)
+                                    ^
+2023.11.10 16:38:58 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+2023.11.10 16:39:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.19s
+2023.11.10 16:39:03 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.10 16:39:08 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.10 16:39:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.10 16:39:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 16:43:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+2023.11.10 16:43:39 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.12 21:50:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.22s
+2023.11.12 21:50:38 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.12 21:50:52 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+2023.11.12 21:50:53 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.2s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:18:30: 
+Not found: valueB
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                             ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:18:47: 
+Not found: valueA
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                                              ^^^^^^
+2023.11.12 21:53:18 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:30: 
+Not found: valueB
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                             ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:47: 
+Not found: valueA
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                                              ^^^^^^
+2023.11.12 21:53:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 98ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:53:23 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:33: = expected but identifier found
+def indexSwap[A](list: List[A]) a: Int, b: Int): List[A] = {
+                                ^
+2023.11.12 21:54:03 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:35: = expected but identifier found
+def indexSwap[A](list: List[A])() a: Int, b: Int): List[A] = {
+                                  ^
+2023.11.12 21:54:04 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 63ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped1 = indexSwap(list1, 1, 3)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:30:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:31:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 21:54:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:42: = expected but identifier found
+def indexSwap[A](list: List[A])( a: Int) b: Int): List[A] = {
+                                         ^
+2023.11.12 21:54:14 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 67ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:41: = expected but identifier found
+def indexSwap[A](list: List[A])(a: Int) b: Int): List[A] = {
+                                        ^
+2023.11.12 21:54:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped1 = indexSwap(list1, 1, 3)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:30:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:31:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 21:54:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:33: ; expected but integer constant found
+val swapped1 = indexSwap(list1) 1, 3)
+                                ^
+2023.11.12 21:54:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:33: ; expected but integer constant found
+val swapped1 = indexSwap(list1) 1) 3)
+                                ^
+2023.11.12 21:54:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 64ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:37: ; expected but integer constant found
+val swapped1 = indexSwap(list1) (1) 3)
+                                    ^
+2023.11.12 21:54:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:30:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:31:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 21:54:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:54:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 97ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:41: = expected but identifier found
+def indexSwap[A](list: List[A])(a: Int) b: Int): List[A] = {
+                                        ^
+2023.11.12 21:54:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 59ms
+2023.11.12 21:54:59 WARN  Using indexes to guess the definition of List
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped1 = indexSwap(list1, 1, 3)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:30:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:31:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 21:55:02 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:32: ; expected but , found
+val swapped1 = indexSwap(list1), 1, 3)
+                               ^
+2023.11.12 21:55:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:32: ; expected but , found
+val swapped1 = indexSwap(list1), (1, 3)
+                               ^
+2023.11.12 21:55:06 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 53ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:32: ; expected but , found
+val swapped1 = indexSwap(list1), (1), 3)
+                               ^
+2023.11.12 21:55:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:29:32: ; expected but , found
+val swapped1 = indexSwap(list1), (1) (3)
+                               ^
+2023.11.12 21:55:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:30:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:31:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 21:55:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:55:14 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 96ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:55:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:3: illegal start of simple pattern
+  def swap(lst: List[A], index: Int, value: A): List[A] = (lst, index) match {
+  ^^^
+2023.11.12 21:55:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 71ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:2:11: = expected but ; found
+  val temp;
+          ^
+2023.11.12 21:55:39 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:2:11: = expected but \n found
+  val temp
+          ^
+2023.11.12 21:55:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:55:47 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 92ms
+2023.11.12 21:55:57 ERROR Failed to tokenize input for semantic tokens for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:19: error: unclosed quoted identifier
+        ` 
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:18:7: unclosed quoted identifier
+      ` 
+      ^
+2023.11.12 21:55:58 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 59ms
+2023.11.12 21:55:58 ERROR Failed to tokenize input for semantic tokens for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:19: error: unclosed quoted identifier
+        ` 
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:56:01 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 84ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:66: 
+Not found: index
+  def swap(lst: List[A], index1: Int, value: A): List[A] = (lst, index) match {
+                                                                 ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:28: 
+Not found: i
+    case (h :: tail, i) if i == 0 => value :: tail
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:47: 
+Not found: tail
+    case (h :: tail, i) if i == 0 => value :: tail
+                                              ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:38: 
+Not found: tail
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                     ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:44: 
+Not found: i
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:56:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:39: identifier expected but : found
+  def swap(lst: List[A], index1: Int, : A): List[A] = (lst, index) match {
+                                      ^
+2023.11.12 21:56:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:67: 
+Not found: index
+  def swap(lst: List[A], index1: Int, index2: A): List[A] = (lst, index) match {
+                                                                  ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:28: 
+Not found: i
+    case (h :: tail, i) if i == 0 => value :: tail
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:47: 
+Not found: tail
+    case (h :: tail, i) if i == 0 => value :: tail
+                                              ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:38: 
+Not found: tail
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                     ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:44: 
+Not found: i
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:51: 
+Not found: value
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                                  ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:56:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 98ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:38: 
+Not found: value
+    case (h :: tail, i) if i == 0 => value :: tail
+                                     ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:51: 
+Not found: value
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                                  ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:56:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:76: illegal start of simple expression
+  def swap(lst: List[A], index1: Int, index2: A): List[A] = (lst, index1 , ) match {
+                                                                           ^
+2023.11.12 21:56:59 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:76: 
+Not found: inde
+  def swap(lst: List[A], index1: Int, index2: A): List[A] = (lst, index1 , inde) match {
+                                                                           ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:28: 
+Not found: i
+    case (h :: tail, i) if i == 0 => value :: tail
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:47: 
+Not found: tail
+    case (h :: tail, i) if i == 0 => value :: tail
+                                              ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:38: 
+Not found: tail
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                     ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:44: 
+Not found: i
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:51: 
+Not found: value
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                                  ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:57:01 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 98ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:38: 
+Not found: value
+    case (h :: tail, i) if i == 0 => value :: tail
+                                     ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:38: 
+Found:    (tail : List[Any])
+Required: List[A]
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                     ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:44: 
+value - is not a member of Any
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                           ^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:51: 
+Not found: value
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                                  ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 21:57:02 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:76: match statement requires cases
+  def swap(lst: List[A], index1: Int, index2: A): List[A] = (lst, index1 , index2) match {
+                                                                           ^^^^^^
+2023.11.12 21:57:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:57:30 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 64ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:57:38 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:57:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:57:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:57:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:57:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 59ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:57:53 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 69ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:57:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:58:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 63ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:15: illegal start of simple pattern
+    case(h :: )
+              ^
+2023.11.12 21:58:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 70ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:58:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:22: illegal start of simple pattern
+    case(h :: tail , )
+                     ^
+2023.11.12 21:58:19 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:58:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 64ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:22: illegal start of simple pattern
+    case(h :: tail , )
+                     ^
+2023.11.12 21:58:25 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 57ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:58:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 67ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:3: => expected but } found
+  }
+  ^
+2023.11.12 21:58:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 62ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:29: 
+Found:    Unit
+Required: List[A]
+    case(h :: tail , 0 , _) => 
+                            ^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 21:58:39 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 96ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:29: 
+Found:    Unit
+Required: List[A]
+    case(h :: tail , 0 , _) => 
+                            ^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:16:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:00:46 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:26:1: end of file expected but } found
+}
+^
+2023.11.12 22:00:46 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 80ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:26:1: end of file expected but } found
+}
+^
+2023.11.12 22:00:47 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 58ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:70: 
+Found:    (index2 : A)
+Required: Int
+    case (h :: tail, 0, _) if index2 == 0 => lst.updated(index1, lst(index2)).updated(index2, h)
+                                                                     ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:59: 
+value - is not a member of A
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:59: 
+value - is not a member of A
+    case (h :: tail, _, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:20:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:01:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:11:33: 
+Not found: dlugoscListy
+    if (indexA < 0 || indexA >= dlugoscListy(lst) || indexB < 0 || indexB >= dlugoscListy(lst)) lst
+                                ^^^^^^^^^^^^
+2023.11.12 22:01:26 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 87ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:70: 
+Found:    (index2 : A)
+Required: Int
+    case (h :: tail, 0, _) if index2 == 0 => lst.updated(index1, lst(index2)).updated(index2, h)
+                                                                     ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:59: 
+value - is not a member of A
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:59: 
+value - is not a member of A
+    case (h :: tail, _, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:20:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:01:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:70: 
+Found:    (index2 : A)
+Required: Int
+    case (h :: tail, 0, _) if index2 == 0 => lst.updated(index1, lst(index2)).updated(index2, h)
+                                                                     ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:59: 
+value - is not a member of A
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:59: 
+value - is not a member of A
+    case (h :: tail, _, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:20:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:01:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:70: 
+Found:    (index2 : A)
+Required: Int
+    case (h :: tail, 0, _) if index2 == 0 => lst.updated(index1, lst(index2)).updated(index2, h)
+                                                                     ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:59: 
+value - is not a member of A
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:59: 
+value - is not a member of A
+    case (h :: tail, _, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:20:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:01:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:70: 
+Found:    (index2 : A)
+Required: Int
+    case (h :: tail, 0, _) if index2 == 0 => lst.updated(index1, lst(index2)).updated(index2, h)
+                                                                     ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:59: 
+value - is not a member of A
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:59: 
+value - is not a member of A
+    case (h :: tail, _, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:20:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:01:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 87ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:70: 
+Found:    (index2 : A)
+Required: Int
+    case (h :: tail, 0, _) if index2 == 0 => lst.updated(index1, lst(index2)).updated(index2, h)
+                                                                     ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:59: 
+value - is not a member of A
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:59: 
+value - is not a member of A
+    case (h :: tail, _, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:20:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:01:33 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 92ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:70: 
+Found:    (index2 : A)
+Required: Int
+    case (h :: tail, 0, _) if index2 == 0 => lst.updated(index1, lst(index2)).updated(index2, h)
+                                                                     ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:59: 
+value - is not a member of A
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:59: 
+value - is not a member of A
+    case (h :: tail, _, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:20:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:01:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:70: 
+Found:    (index2 : A)
+Required: Int
+    case (h :: tail, 0, _) if index2 == 0 => lst.updated(index1, lst(index2)).updated(index2, h)
+                                                                     ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:59: 
+value - is not a member of A
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:59: 
+value - is not a member of A
+    case (h :: tail, _, _) => h :: swap(tail, index1 - 1, index2 - 1)
+                                                          ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:20:27: 
+Found:    (indexB : Int)
+Required: A
+      swap(lst , indexA , indexB)
+                          ^^^^^^
+2023.11.12 22:01:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:11:33: 
+Not found: dlugoscListy
+    if (indexA < 0 || indexA >= dlugoscListy(lst) || indexB < 0 || indexB >= dlugoscListy(lst)) lst
+                                ^^^^^^^^^^^^
+2023.11.12 22:01:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 89ms
+2023.11.12 22:01:52 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.12 22:01:52 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.12 22:02:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:2:53: identifier expected but ) found
+  def swap(lst: List[A], index1: Int, index2: Int , ): List[A] = (lst, index1, index2) match {
+                                                    ^
+2023.11.12 22:03:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 59ms
+2023.11.12 22:03:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:4:10: 
+Unreachable case
+    case (h :: tail, 0, _) => h :: swap(tail, index1 - 1, index2 - 1)
+         ^^^^^^^^^^^^^^^^^
+2023.11.12 22:03:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:4:10: 
+Unreachable case
+    case (h :: tail, 0, 0) => h :: swap(tail, index1 - 1, index2 - 1)
+         ^^^^^^^^^^^^^^^^^
+2023.11.12 22:03:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:25: illegal start of simple pattern
+    case (h :: tail, 0, ) => h :: swap(tail, index1 - 1, index2 - 1)
+                        ^
+2023.11.12 22:04:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:25: illegal start of simple pattern
+    case (h :: tail, 0, ) => h :: swap(tail, index1 - 1, index2 - 1)
+                        ^
+2023.11.12 22:04:15 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 61ms
+2023.11.12 22:04:19 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:5: } expected but case found
+    case (h :: tail, 0, _)  => lst.updated(index1, lst(index2)).updated(index2, h)
+    ^^^^
+2023.11.12 22:04:40 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 60ms
+2023.11.12 22:04:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.12 22:04:52 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.12 22:04:55 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+2023.11.12 22:04:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.12 22:08:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:25:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 22:08:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:26:1: end of file expected but } found
+}
+^
+2023.11.12 22:08:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 68ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:76: 
+Not found: inde
+  def swap(lst: List[A], index1: Int, index2: A): List[A] = (lst, index1 , inde) match {
+                                                                           ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:28: 
+Not found: i
+    case (h :: tail, i) if i == 0 => value :: tail
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:47: 
+Not found: tail
+    case (h :: tail, i) if i == 0 => value :: tail
+                                              ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:38: 
+Not found: tail
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                     ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:44: 
+Not found: i
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:51: 
+Not found: value
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                                  ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 22:09:01 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:38: 
+Not found: value
+    case (h :: tail, i) if i == 0 => value :: tail
+                                     ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:51: 
+Not found: value
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                                  ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 22:09:04 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 97ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:3:66: 
+Not found: index
+  def swap(lst: List[A], index1: Int, value: A): List[A] = (lst, index) match {
+                                                                 ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:28: 
+Not found: i
+    case (h :: tail, i) if i == 0 => value :: tail
+                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:47: 
+Not found: tail
+    case (h :: tail, i) if i == 0 => value :: tail
+                                              ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:38: 
+Not found: tail
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                     ^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:5:44: 
+Not found: i
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+                                           ^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:17:10: 
+Found:    Unit
+Required: List[A]
+    else {
+         ^
+2023.11.12 22:09:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+2023.11.12 22:09:08 ERROR Failed to tokenize input for semantic tokens for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:19: error: unclosed quoted identifier
+        ` 
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:18:30: 
+Not found: valueB
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                             ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:18:47: 
+Not found: valueA
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                                              ^^^^^^
+2023.11.12 22:09:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.1s
+2023.11.12 22:09:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.12 22:09:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+2023.11.12 22:09:50 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[33mwarning[39m: 
+hello.worksheet.sc:20 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+      if (index < 0 || index >= lst.length) None
+
+
+2023.11.12 22:09:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.2s
+[33mwarning[39m: 
+hello.worksheet.sc:20 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+      if (index < 0 || index >= dlugoscListy(lst)) None
+
+
+2023.11.12 22:10:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.19s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:15:3: 
+'then' expected, but 'else' found
+  else getElement(lst, index)
+  ^^^^
+[33mwarning[39m: 
+hello.worksheet.sc:20 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+      if (index < 0 || index >= dlugoscListy(lst)) 
+
+
+[33mwarning[39m: 
+hello.worksheet.sc:22 (mdoc generated code) 
+ A pure expression does nothing in statement position; you may be omitting necessary parentheses
+    }
+
+
+2023.11.12 22:10:41 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:14:48: 
+Not found: sl
+  if (index < 0 || index >= dlugoscListy(lst)) sl
+                                               ^^
+[33mwarning[39m: 
+hello.worksheet.sc:20 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+      if (index < 0 || index >= dlugoscListy(lst)) sl
+
+
+2023.11.12 22:10:47 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:14:48: 
+Found:    (lst : List[A])
+Required: Option[A]
+  if (index < 0 || index >= dlugoscListy(lst)) lst
+                                               ^^^
+[33mwarning[39m: 
+hello.worksheet.sc:20 (mdoc generated code) 
+ Line is indented too far to the left, or a `}` is missing
+      if (index < 0 || index >= dlugoscListy(lst)) lst
+
+
+2023.11.12 22:10:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:95:7: } expected but end of file found
+//1 , 
+      ^
+2023.11.12 22:12:02 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 59ms
+2023.11.12 22:12:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:23:31: 
+Found:    (indexA : Int)
+Required: List[A]
+      val valueA = getElement(indexA) //TODO
+                              ^^^^^^
+2023.11.12 22:12:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:23:31: 
+Not found: lstindexA
+      val valueA = getElement(lstindexA) //TODO
+                              ^^^^^^^^^
+2023.11.12 22:12:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:25:47: 
+Found:    (valueA : Option[A])
+Required: A
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                                              ^^^^^^
+2023.11.12 22:12:15 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:24:24: 
+Found:    (List[A], Int)
+Required: Int
+      val valueB = lst(lst , indexB)
+                       ^^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:25:47: 
+Found:    (valueA : Option[A])
+Required: A
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                                              ^^^^^^
+2023.11.12 22:12:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:25:30: 
+Found:    (valueB : (List[A], Int))
+Required: A
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                             ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:25:47: 
+Found:    (valueA : Option[A])
+Required: A
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                                              ^^^^^^
+2023.11.12 22:12:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:25:30: 
+Found:    (valueB : Option[A])
+Required: A
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                             ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:25:47: 
+Found:    (valueA : Option[A])
+Required: A
+      swap(swap(lst, indexA, valueB), indexB, valueA)
+                                              ^^^^^^
+2023.11.12 22:12:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:7:50: expected =>> or =>
+    def getElement(list: List[A], idx: Int): [A] = (list, idx) match {
+                                                 ^
+2023.11.12 22:13:18 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 66ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:8:28: 
+Found:    Some[A]
+Required: A
+    case (head :: _, 0) => Some(head)
+                           ^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:10:15: 
+Found:    None.type
+Required: A
+    case _ => None
+              ^^^^
+2023.11.12 22:13:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:8:32: } expected but ) found
+    case (head :: _, 0) => head)
+                               ^
+2023.11.12 22:13:43 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 75ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:10:15: 
+Found:    None.type
+Required: A
+    case _ => None
+              ^^^^
+2023.11.12 22:13:45 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:7:50: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+    def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                                 ^^^^^^^^^^^
+2023.11.12 22:13:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:7:50: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+    def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                                 ^^^^^^^^^^^
+2023.11.12 22:13:59 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:50: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+    def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                                 ^^^^^^^^^^^
+2023.11.12 22:14:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.18s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.11.12 22:14:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:31: ) expected but integer constant found
+def indexSwap[A](list: List[A]0 a: Int, b: Int): List[A] = {
+                              ^
+2023.11.12 22:15:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 65ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:33: = expected but identifier found
+def indexSwap[A](list: List[A]) a: Int, b: Int): List[A] = {
+                                ^
+2023.11.12 22:15:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 62ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped1 = indexSwap(list1, 1, 3)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:38:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:39:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 22:15:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:42: = expected but identifier found
+def indexSwap[A](list: List[A]) (a: Int) b: Int): List[A] = {
+                                         ^
+2023.11.12 22:15:15 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 57ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped1 = indexSwap(list1, 1, 3)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:38:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:39:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 22:15:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:38:1: ) expected but val found
+val swapped2 = indexSwap(list1, 0, 4)
+^^^
+2023.11.12 22:15:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 75ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (List[Int], Int)
+Required: List[Any]
+val swapped1 = indexSwap(list1, 1) (3)
+                         ^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:38:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:39:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 22:15:26 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:38:1: ) expected but val found
+val swapped2 = indexSwap(list1, 0, 4)
+^^^
+2023.11.12 22:15:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 64ms
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:38:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped2 = indexSwap(list1, 0, 4)
+                         ^^^^^^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:39:26: 
+Found:    (List[Int], Int, Int)
+Required: List[Any]
+val swapped3 = indexSwap(list2, 2, 5)
+                         ^^^^^^^^^^^
+2023.11.12 22:15:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.11s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.11.12 22:15:34 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.11.12 22:18:22 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+2023.11.12 22:20:57 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 59h 50m 18.488s)
+2023.11.12 22:20:57 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 59h 50m 18.506s)
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.11.12 22:20:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.22s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.11.12 22:20:58 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.11.12 22:20:58 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.11.12 22:22:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.17s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.11.12 22:22:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.12s
+2023.11.12 22:30:33 INFO  Shutting down server
+2023.11.12 22:30:33 INFO  shutting down Metals
+2023.11.12 22:30:33 INFO  Shut down connection with build server.
+2023.11.12 22:30:33 INFO  Exiting server
+2023.12.02 21:34:06 INFO  Started: Metals version 1.1.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab2' for client Visual Studio Code 1.83.0.
+2023.12.02 21:34:06 INFO  Attempting to connect to the build server...
+2023.12.02 21:34:06 INFO  skipping build import with status 'Installed'
+2023.12.02 21:34:06 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.02 21:34:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab2/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.02 21:34:07 INFO  time: Connected to build server in 0.84s
+2023.12.02 21:34:07 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.02 21:34:08 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.02 21:34:09 INFO  time: indexed workspace in 1.1s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.02 21:34:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.29s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.02 21:34:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.49s
+2023.12.02 23:15:35 INFO  Shutting down server
+2023.12.02 23:15:35 INFO  shutting down Metals
+2023.12.02 23:15:35 INFO  Shut down connection with build server.
+2023.12.02 23:15:35 INFO  Exiting server
+2023.12.04 13:53:41 INFO  Started: Metals version 1.1.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab2' for client Visual Studio Code 1.83.0.
+2023.12.04 13:53:42 INFO  Attempting to connect to the build server...
+2023.12.04 13:53:42 INFO  skipping build import with status 'Installed'
+2023.12.04 13:53:42 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.04 13:53:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab2/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.04 13:53:42 INFO  time: Connected to build server in 0.32s
+2023.12.04 13:53:42 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.04 13:53:44 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.04 13:53:45 INFO  time: indexed workspace in 1s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 13:53:48 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.38s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 13:53:49 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.51s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 13:55:14 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.4s
+2023.12.04 13:56:27 INFO  Shutting down server
+2023.12.04 13:56:27 INFO  shutting down Metals
+2023.12.04 13:56:27 INFO  Shut down connection with build server.
+2023.12.04 13:56:27 INFO  Exiting server
+2023.12.04 14:06:04 INFO  Started: Metals version 1.1.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab2' for client Visual Studio Code 1.83.0.
+2023.12.04 14:06:04 INFO  Attempting to connect to the build server...
+2023.12.04 14:06:04 INFO  skipping build import with status 'Installed'
+2023.12.04 14:06:04 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.04 14:06:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab2/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.04 14:06:05 INFO  time: Connected to build server in 0.31s
+2023.12.04 14:06:05 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.04 14:06:06 INFO  Shutting down server
+2023.12.04 14:06:06 INFO  shutting down Metals
+2023.12.04 14:06:06 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.04 14:06:06 INFO  Shut down connection with build server.
+2023.12.04 14:06:06 INFO  Exiting server
+2023.12.04 14:08:50 INFO  Started: Metals version 1.1.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab2' for client Visual Studio Code 1.83.0.
+2023.12.04 14:08:50 INFO  Attempting to connect to the build server...
+2023.12.04 14:08:50 INFO  skipping build import with status 'Installed'
+2023.12.04 14:08:50 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.04 14:08:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab2/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.04 14:08:50 INFO  time: Connected to build server in 0.37s
+2023.12.04 14:08:50 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.04 14:08:52 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.04 14:08:53 INFO  time: indexed workspace in 1.01s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 14:08:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.29s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 14:08:57 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.51s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:4:10: 
+Unreachable case
+    case (h :: tail, i) => h :: swap(tail, i - 1, value)
+         ^^^^^^^^^^^^^^
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:14:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.42s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:14:11 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.32s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:4:44: 
+Not found: i
+    case (h :: tail, _) => h :: swap(tail, i - 1, value)
+                                           ^
+2023.12.04 15:14:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.16s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:14:46 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.29s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:42: 
+a is already defined as parameter a
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                         ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (MdocApp.this.list1 : List[Int])
+Required: Int
+val swapped1 = indexSwap(list1) (1) (3)
+                         ^^^^^
+2023.12.04 15:32:21 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.21s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:42: 
+a is already defined as parameter a
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                         ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (MdocApp.this.list1 : List[Int])
+Required: Int
+val swapped1 = indexSwap(list1) (1) (3)
+                         ^^^^^
+2023.12.04 15:32:23 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.15s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:42: 
+a is already defined as parameter a
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                         ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (MdocApp.this.list1 : List[Int])
+Required: Int
+val swapped1 = indexSwap(list1) (1) (3)
+                         ^^^^^
+2023.12.04 15:32:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:50: 
+a is already defined as parameter a
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(b: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                                 ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:59: 
+b is already defined as parameter b
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(b: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                                          ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (MdocApp.this.list1 : List[Int])
+Required: Int
+val swapped1 = indexSwap(list1) (1) (3)
+                         ^^^^^
+2023.12.04 15:32:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:50: 
+a is already defined as parameter a
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(b: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                                 ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:59: 
+b is already defined as parameter b
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(b: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                                          ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (MdocApp.this.list1 : List[Int])
+Required: Int
+val swapped1 = indexSwap(list1) (1) (3)
+                         ^^^^^
+2023.12.04 15:32:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:50: 
+a is already defined as parameter a
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(b: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                                 ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:1:59: 
+b is already defined as parameter b
+
+Note that overloaded methods must all be defined in the same group of toplevel definitions
+def indexSwap[A](a: Int)(b: Int)(list: List[A]) (a: Int) (b: Int): List[A] = {
+                                                          ^^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (MdocApp.this.list1 : List[Int])
+Required: Int
+val swapped1 = indexSwap(list1) (1) (3)
+                         ^^^^^
+2023.12.04 15:32:24 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:26: 
+Found:    (MdocApp.this.list1 : List[Int])
+Required: Int
+val swapped1 = indexSwap(list1) (1) (3)
+                         ^^^^^
+2023.12.04 15:32:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:27: 
+Found:    (MdocApp.this.list1 : List[Int])
+Required: Int
+val swapped13 = indexSwap(list1) (1) (3)
+                          ^^^^^
+2023.12.04 15:32:38 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:37:27: 
+Found:    (Int, Int)
+Required: Int
+val swapped13 = indexSwap(1,3)
+                          ^^^
+2023.12.04 15:32:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:32:53 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.28s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:33:13 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.25s
+[31merror[39m: 
+hello.worksheet.sc:52 (mdoc generated code) 
+ missing argument for parameter v1 of method apply in trait Function1: (v1: List[Any]): List[Any]
+      swapped13()
+
+
+2023.12.04 15:33:14 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.14s
+[31merror[39m: 
+hello.worksheet.sc:52 (mdoc generated code) 
+ Not found: lis
+      swapped13(lis)
+
+
+2023.12.04 15:33:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.13s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:33:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.22s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:50:41 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.28s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:50:42 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.22s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.04 15:50:46 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.23s
+Dec 04, 2023 3:52:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 413
+2023.12.04 16:01:28 INFO  Shutting down server
+2023.12.04 16:01:28 INFO  shutting down Metals
+2023.12.04 16:01:28 INFO  Shut down connection with build server.
+2023.12.04 16:01:28 INFO  Exiting server
+2023.12.06 19:13:10 INFO  Started: Metals version 1.1.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab2' for client Visual Studio Code 1.83.0.
+2023.12.06 19:13:10 INFO  Attempting to connect to the build server...
+2023.12.06 19:13:10 INFO  skipping build import with status 'Installed'
+2023.12.06 19:13:10 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.06 19:13:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab2/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.06 19:13:11 INFO  time: Connected to build server in 1.03s
+2023.12.06 19:13:11 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.06 19:13:12 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab2/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.06 19:13:14 INFO  time: indexed workspace in 1.57s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.06 19:18:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.36s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:92:5: 
+Double definition:
+val result1: List[Int] in class MdocApp at line 99 and
+val result1: List[Char] in class MdocApp at line 112
+
+val result1 = lrepeat(3)(LazyList('a','b','c','d')).toList
+    ^
+2023.12.06 19:18:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.38s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:92:5: 
+Double definition:
+val result1: List[Int] in class MdocApp at line 99 and
+val result1: List[Char] in class MdocApp at line 112
+
+val result1 = lrepeat(3)(LazyList('a','b','c','d')).toList
+    ^
+2023.12.06 19:18:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.25s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.06 19:18:19 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.44s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.06 19:18:59 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.37s
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:97:7: 
+expression expected but unindent found
+Давай давай
+      ^^^^^
+[31merror[39m: helloscala/src/main/scala/hello.worksheet.sc:97:1: 
+Not found: Давай
+Давай давай
+^^^^^
+2023.12.06 19:19:09 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.21s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.06 19:19:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.33s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.06 19:20:06 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.32s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.06 19:20:08 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.3s
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.06 19:20:12 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.32s
+Dec 06, 2023 7:20:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:8:48: 
+match may not be exhaustive.
+
+It would fail on pattern case: (_: List, _)
+
+  def getElement(list: List[A], idx: Int): A = (list, idx) match {
+                                               ^^^^^^^^^^^
+2023.12.06 19:23:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.3s

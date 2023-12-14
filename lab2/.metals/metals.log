@@ -3102,3 +3102,7 @@ It would fail on pattern case: (_: List, _)
   def getElement(list: List[A], idx: Int): A = (list, idx) match {
                                                ^^^^^^^^^^^
 2023.12.06 19:23:05 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.3s
+2023.12.07 16:58:15 INFO  Shutting down server
+2023.12.07 16:58:15 INFO  shutting down Metals
+2023.12.07 16:58:15 INFO  Shut down connection with build server.
+2023.12.07 16:58:15 INFO  Exiting server

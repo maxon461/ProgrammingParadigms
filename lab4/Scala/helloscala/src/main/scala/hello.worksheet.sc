@@ -45,54 +45,54 @@ val result = path(target, disk1)
 
 // def remove(disk: Disk , )
 
-def remove(disk: Disk, path: List[String]): (Disk, Boolean) = {
-  def removeAux(currentFolder: Folder, currentPath: List[String]): (Folder, Boolean) = {
-    currentPath match {
-      case Nil =>
-        (currentFolder, false) // Nie znaleziono zasobu do usunięcia
-      case name :: Nil =>
-        val (newContent, found) = currentFolder.content.partition {
-          case File(fileName)  => fileName != name
-          case Folder(foldername, content) => foldername != name
-        }
-        (Folder(currentFolder.name, newContent), found.nonEmpty)
-      case name :: rest =>
-        currentFolder.content.collectFirst {
-          case folder: Folder if folder.name == name => folder
-        } match {
+// def remove(disk: Disk, path: List[String]): (Disk, Boolean) = {
+//   def removeAux(currentFolder: Folder, currentPath: List[String]): (Folder, Boolean) = {
+//     currentPath match {
+//       case Nil =>
+//         (currentFolder, false) // Nie znaleziono zasobu do usunięcia
+//       case name :: Nil =>
+//         val (newContent, found) = currentFolder.content.partition {
+//           case File(fileName)  => fileName != name
+//           case Folder(foldername, content) => foldername != name
+//         }
+//         (Folder(currentFolder.name, newContent), found.nonEmpty)
+//       case name :: rest =>
+//         currentFolder.content.collectFirst {
+//           case folder: Folder if folder.name == name => folder
+//         } match {
           
-        }
-    }
-  }
+//         }
+//     }
+//   }
 
-  val (newRootFolder, removed) = removeAux(disk.rootFolder, path)
+//   val (newRootFolder, removed) = removeAux(disk.rootFolder, path)
 
-  if (removed) {
-    (Disk(disk.driveLetter, newRootFolder), true)
-  } else {
-    (disk, false)
-  }
-}
+//   if (removed) {
+//     (Disk(disk.driveLetter, newRootFolder), true)
+//   } else {
+//     (disk, false)
+//   }
+// }
 
-val disk = Disk("C:", Folder("root", List(
-  File("file1.txt"),
-  Folder("folder1", List(
-    File("file2.txt"),
-    File("file3.txt")
-  )),
-  Folder("folder2", List(
-    File("file4.txt"),
-    Folder("subfolder1", List(
-      File("file5.txt")
-    ))
-  ))
-)))
+// val disk = Disk("C:", Folder("root", List(
+//   File("file1.txt"),
+//   Folder("folder1", List(
+//     File("file2.txt"),
+//     File("file3.txt")
+//   )),
+//   Folder("folder2", List(
+//     File("file4.txt"),
+//     Folder("subfolder1", List(
+//       File("file5.txt")
+//     ))
+//   ))
+// )))
 
-val (newDisk, removed) = remove(disk, List("folder1", "file2.txt"))
-if (removed) {
-  println("Plik został pomyślnie usunięty.")
-} else {
-  println("Wystąpił błąd podczas usuwania pliku.")
-}
+// val (newDisk, removed) = remove(disk, List("folder1", "file2.txt"))
+// if (removed) {
+//   println("Plik został pomyślnie usunięty.")
+// } else {
+//   println("Wystąpił błąd podczas usuwania pliku.")
+// }
 
 

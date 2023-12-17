@@ -1,0 +1,78 @@
+2023.12.17 14:21:45 INFO  Started: Metals version 1.2.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab3/Scala' for client Visual Studio Code 1.83.0.
+2023.12.17 14:21:46 INFO  Attempting to connect to the build server...
+2023.12.17 14:21:46 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2023.12.17 14:21:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.17 14:21:46 INFO  time: Connected to build server in 1.18s
+2023.12.17 14:21:46 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.17 14:21:54 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.17 14:22:00 INFO  time: indexed workspace in 5.31s
+2023.12.17 14:22:00 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2023.12.17 14:22:08 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 8.03s
+2023.12.17 14:22:08 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2023.12.17 14:22:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.98s
+2023.12.17 14:22:13 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.17 14:22:13 INFO  time: code lens generation in 4.87s
+2023.12.17 14:22:13 INFO  time: code lens generation in 4.87s
+2023.12.17 14:23:02 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2023.12.17 14:23:04 INFO  time: code lens generation in 2.71s
+2023.12.17 14:23:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 4.9s
+2023.12.17 14:24:01 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2023.12.17 14:24:04 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.48s
+2023.12.17 14:24:06 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2023.12.17 14:24:07 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.37s
+2023.12.17 14:27:25 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return true
+        ^^^^^^^^^^^
+2023.12.17 14:27:26 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.8s
+2023.12.17 14:27:31 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return true
+        ^^^^^^^^^^^
+2023.12.17 14:27:32 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.41s
+2023.12.17 14:27:36 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return true
+        ^^^^^^^^^^^
+2023.12.17 14:27:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.31s
+2023.12.17 14:29:08 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return true
+        ^^^^^^^^^^^
+2023.12.17 14:29:10 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.44s
+2023.12.17 14:30:42 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return true
+        ^^^^^^^^^^^
+2023.12.17 14:30:44 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.04s
+2023.12.17 14:30:50 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return false
+        ^^^^^^^^^^^^
+2023.12.17 14:30:51 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.03s
+2023.12.17 14:30:53 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return false
+        ^^^^^^^^^^^^
+2023.12.17 14:30:54 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.13s
+2023.12.17 14:31:03 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+Dec 17, 2023 2:31:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 166
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return false
+        ^^^^^^^^^^^^
+2023.12.17 14:31:04 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.9s
+2023.12.17 14:31:05 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return false
+        ^^^^^^^^^^^^
+2023.12.17 14:31:06 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.47s

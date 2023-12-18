@@ -10,7 +10,7 @@ def composites(n: Int): List[Int] = {
   }
 
   (for {
-    num <- List.range(2, n + 1)
+    num <- List.range(2, n+1)
     if isComposite(num)
   } yield num).toList
 }
@@ -18,4 +18,5 @@ def composites(n: Int): List[Int] = {
 val test1 = composites(10) 
 val test2 = composites(20) 
 val test3 = composites(5) 
+
 

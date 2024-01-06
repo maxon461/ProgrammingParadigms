@@ -1,19 +1,31 @@
-def sublistsL[A](list: LazyList[A]): LazyList[List[A]] = {
-  def sublistsHelper(prefix: LazyList[A], suffix: LazyList[A]): LazyList[List[A]] = {
-    if (suffix.isEmpty) LazyList.empty
-    else (prefix ++ suffix.take(1)).toList #:: sublistsHelper(prefix ++ suffix.take(1), suffix.drop(1))
+def skipponacciDeclaracci(n: Int, m: Int): List[Int] = {
+  def fib(n: Int): Int = {
+    if (n <= 2) 1
+    else fib(n - 1) + fib(n - 2)
   }
 
-  sublistsHelper(LazyList.empty, list)
+  def skipponacciHelper(n: Int, m: Int): Int = {
+    (n, m) match {
+      case (1, 1) => 1
+      case (_, 1) => fib(n)
+      case (_, _) => skipponacciHelper(2 * n - 1, m - 1) + skipponacciHelper(2 * n, m - 1)
+    }
+  }
+
+  def skipD(n: Int, m: Int, acc: List[Int]): List[Int] = {
+    if (n != 0) {
+      skipD(n - 1, m, skipponacciHelper(n, m) +: acc)
+    } else acc
+  }
+
+  skipD(n, m, Nil).reverse
 }
 
-// Przykładowe użycie
-val inputList: LazyList[Int] = LazyList(1, 2, 3, 4, 5)
-val result: LazyList[List[Int]] = sublistsL(inputList)
 
-result.take(5).foreach(sublist => println(sublist))
+// Testy
 
+val result1 = skipponacciDeclaracci(3, 3)
+// assert(result1 == List(1, 1, 2, 3, 5), s"Expected List(1, 1, 2, 3, 5), but got $result1")
 
-val nums: LazyList[Int] = {println("e1"); 1} #:: nums.map(n => {println("e"+(n+1)); n+1})
-nums.take(3).toList
-// nums.take(6).toList
+// val result2 = skipponacciDeclaracci(6, 2)
+// assert(result2 == List(1, 1, 5, 7, 12, 20), s"Expected List(1, 1, 5, 7, 12, 20), but got $result2")

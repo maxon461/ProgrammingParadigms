@@ -19,3 +19,34 @@ let skipponacciDeclaracci n m =
 
 (* Testy *)
 let result1 = skipponacciDeclaracci 3 3;;
+
+
+let skipponacciImperacci n m =
+  let result = Array.make n 0 in
+  let current_n = ref n in
+
+  let rec skipponacciHelper n m =
+    let num_of_res = int_of_float (2. ** float_of_int (m - 1)) in
+    let start = ref (n * num_of_res) in
+    let res = ref 0 in
+    let num_of_res_ref = ref num_of_res in
+
+    while !num_of_res_ref > 0 do
+      res := !res + fib !start;
+      start := !start - 1;
+      num_of_res_ref := !num_of_res_ref - 1;
+    done;
+
+    !res
+  in
+
+  while !current_n > 0 do
+    result.(n - !current_n) <- skipponacciHelper !current_n m;
+    current_n := !current_n - 1;
+  done;
+
+  result
+;;
+
+(* Test *)
+let result2 = skipponacciImperacci 3 3;;

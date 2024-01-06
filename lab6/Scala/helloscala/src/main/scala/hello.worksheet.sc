@@ -1,8 +1,11 @@
-def skipponacciDeclaracci(n: Int, m: Int): List[Int] = {
+
   def fib(n: Int): Int = {
     if (n <= 2) 1
     else fib(n - 1) + fib(n - 2)
   }
+  
+def skipponacciDeclaracci(n: Int, m: Int): List[Int] = {
+
 
   def skipponacciHelper(n: Int, m: Int): Int = {
     (n, m) match {
@@ -29,3 +32,37 @@ val result1 = skipponacciDeclaracci(3, 3)
 
 // val result2 = skipponacciDeclaracci(6, 2)
 // assert(result2 == List(1, 1, 5, 7, 12, 20), s"Expected List(1, 1, 5, 7, 12, 20), but got $result2")
+
+
+
+
+def skipponacciImperacci(n: Int, m: Int): Array[Int] = {
+
+
+  val result = new Array[Int](n)
+  var currentN = n
+  // var result = List[Int]()
+  def skipponacciHelper(n: Int, m: Int): Int = {
+    var numofres = scala.math.pow(2, m-1).toInt
+    var start = n * numofres
+    var res = 0
+    while ( numofres > 0){
+      res+=fib(start)
+      start -= 1
+      numofres -= 1
+            
+    }
+
+    res
+  }
+
+
+  while (currentN > 0) {
+    result(currentN-1) = skipponacciHelper(currentN, m)
+    currentN -= 1
+  }
+  result
+  // skipponacciHelper(n,m)
+}
+// Test
+val result2 = List(skipponacciImperacci(3, 3))

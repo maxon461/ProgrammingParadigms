@@ -66,3 +66,6 @@ def skipponacciImperacci(n: Int, m: Int): Array[Int] = {
 }
 // Test
 val result2 = List(skipponacciImperacci(3, 3))
+
+
+// modific

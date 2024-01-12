@@ -2157,3 +2157,29 @@ Required: Int
 2024.01.12 13:57:40 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab6/Scala/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
 2024.01.12 15:15:08 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab6/Scala/helloscala/src/main/scala/hello.worksheet.sc
 2024.01.12 15:15:11 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 3.09s
+Jan 12, 2024 4:25:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+2024.01.12 16:25:27 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab6/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[31merror[39m: Scala/helloscala/src/main/scala/hello.worksheet.sc:64:3: 
+Found:    (result : Array[Int])
+Required: List[Int]
+  result
+  ^^^^^^
+2024.01.12 16:25:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.3s
+2024.01.12 16:25:33 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab6/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[31merror[39m: Scala/helloscala/src/main/scala/hello.worksheet.sc:66:1: ) expected but } found
+}
+^
+2024.01.12 16:25:35 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.81s
+2024.01.12 16:25:35 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab6/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[31merror[39m: Scala/helloscala/src/main/scala/hello.worksheet.sc:64:8: 
+Found:    (result : Array[Int])
+Required: Int
+  List(result)
+       ^^^^^^
+2024.01.12 16:25:36 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 0.91s
+2024.01.12 16:26:13 INFO  time: code lens generation in 2.82s
+2024.01.12 16:26:14 INFO  time: code lens generation in 1.25s
+2024.01.12 16:26:14 INFO  time: code lens generation in 2.59s
+2024.01.12 16:26:14 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab6/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.12 16:26:16 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.39s

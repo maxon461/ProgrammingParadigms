@@ -20,12 +20,12 @@ let skipponacciDeclaracci n m =
 (* Testy *)
 let result1 = skipponacciDeclaracci 3 3;;
 
-
+(*Imperative*)
 let skipponacciImperacci n m =
   let result = Array.make n 0 in
   let current_n = ref n in
 
-  let rec skipponacciHelper n m =
+  let  skipponacciHelper n m =
     let num_of_res = int_of_float (2. ** float_of_int (m - 1)) in
     let start = ref (n * num_of_res) in
     let res = ref 0 in
@@ -50,3 +50,38 @@ let skipponacciImperacci n m =
 
 (* Test *)
 let result2 = skipponacciImperacci 3 3;;
+
+
+
+(*modifcation*)
+
+let nth_row_pascal_triangle n =
+  let row = Array.make (n + 1) 1 in
+  for i = 2 to n do
+    for j = i - 1 downto 1 do
+      row.(j) <- row.(j) + row.(j - 1)
+    done;
+  done;
+  row
+
+
+let example_result = nth_row_pascal_triangle 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

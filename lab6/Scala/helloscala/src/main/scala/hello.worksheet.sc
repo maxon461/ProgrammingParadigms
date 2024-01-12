@@ -36,7 +36,7 @@ val result1 = skipponacciDeclaracci(3, 3)
 
 
 
-def skipponacciImperacci(n: Int, m: Int): Array[Int] = {
+def skipponacciImperacci(n: Int, m: Int): List[Int] = {
 
 
   val result = new Array[Int](n)
@@ -61,7 +61,7 @@ def skipponacciImperacci(n: Int, m: Int): Array[Int] = {
     result(currentN-1) = skipponacciHelper(currentN, m)
     currentN -= 1
   }
-  result
+  result.toList
   // skipponacciHelper(n,m)
 }
 // Test

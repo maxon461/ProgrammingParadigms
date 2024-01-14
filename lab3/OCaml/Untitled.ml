@@ -1,16 +1,14 @@
 let rec (<<) f n =
-  let rec generate_list acc x n =
-    if n < 0 then
-      acc
-    else
-      generate_list (x :: acc) (f x) (n - 1)
-  in
-  generate_list [] n n
+  if n < 0 then (fun _ -> [])
+  else if n = 0 then (fun x -> [x])
+  else (fun x -> x :: (f << (n-1)) (f x))
 ;;
 
+(* Testy *)
+let test1 = ((fun x -> x * 2) << 3) 
+let res1 = test1 2
+let test2 = ((fun x -> x + 1) << 4) 
+let res2 = test2 0
 
-
-let test1 = (fun x -> x * x) << 3 
-let test2 = (fun x -> x + 1) << 4 
-
-
+(*		(fun x -> x * 2) << 3: Wywołuje operator << z funkcją f i n.
+		Otrzymujemy funkcję anonimową (fun x -> x :: ((fun x -> x * 2) << 2) ((fun x -> x * 2) x)).*)

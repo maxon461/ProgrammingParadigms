@@ -11,7 +11,7 @@ def composites(n: Int): List[Int] = {
 
   (for {
     num <- List.range(2, n+1)
-    if isComposite(num)
+    if !isComposite(num)
   } yield num).toList
 }
 

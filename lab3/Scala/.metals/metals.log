@@ -163,3 +163,64 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.lang.Thread.run(Thread.java:833)
 
 2023.12.18 17:14:25 INFO  Exiting server
+2024.01.14 16:13:43 INFO  Started: Metals version 1.2.0 in folders '/Users/maxon462/Desktop/Paradygmaty/lab3/Scala' for client Visual Studio Code 1.83.0.
+2024.01.14 16:13:45 INFO  Attempting to connect to the build server...
+2024.01.14 16:13:45 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/maxon462/.bloop/bloop.json
+2024.01.14 16:13:59 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.14 16:14:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/.metals/bsp.trace.json or /Users/maxon462/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.14 16:14:13 INFO  time: Connected to build server in 27s
+2024.01.14 16:14:13 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.14 16:14:18 INFO  time: indexed workspace in 5.02s
+2024.01.14 16:14:18 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 16:14:23 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return false
+        ^^^^^^^^^^^^
+2024.01.14 16:14:29 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 10s
+2024.01.14 16:14:29 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return false
+        ^^^^^^^^^^^^
+2024.01.14 16:14:32 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 3.03s
+2024.01.14 16:14:33 INFO  no build target found for /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.14 16:14:41 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return false
+        ^^^^^^^^^^^^
+2024.01.14 16:14:43 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.01s
+2024.01.14 16:18:35 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 16:18:37 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.76s
+2024.01.14 16:18:46 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 16:18:47 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.07s
+Jan 14, 2024 4:21:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+Jan 14, 2024 4:21:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+Jan 14, 2024 4:21:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+2024.01.14 16:21:30 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab3/Scala/helloscala/src/main/scala/hello.worksheet.sc
+[33mwarning[39m: helloscala/src/main/scala/hello.worksheet.sc:6:9: 
+Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+        return false
+        ^^^^^^^^^^^^
+2024.01.14 16:21:31 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.46s
+2024.01.14 16:29:40 INFO  Shutting down server
+2024.01.14 16:29:40 INFO  shutting down Metals
+2024.01.14 16:29:40 INFO  Shut down connection with build server.
+2024.01.14 16:29:40 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.01.14 16:29:40 INFO  Exiting server

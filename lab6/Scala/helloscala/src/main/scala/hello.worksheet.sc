@@ -39,7 +39,7 @@ val result1 = skipponacciDeclaracci(3, 3)
 def skipponacciImperacci(n: Int, m: Int): List[Int] = {
 
 
-  val result = new Array[Int](n)
+  var result = new Array[Int](n)
   var currentN = n
   // var result = List[Int]()
   def skipponacciHelper(n: Int, m: Int): Int = {

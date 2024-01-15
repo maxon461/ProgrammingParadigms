@@ -2755,3 +2755,34 @@ Exception in thread "pool-8-thread-2" java.lang.InterruptedException
 2024.01.14 18:04:14 INFO  time: code lens generation in 1.06s
 2024.01.14 18:04:17 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 4.78s
 2024.01.14 18:04:20 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 3s
+2024.01.14 18:11:00 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab4/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 18:11:02 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab4/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 18:11:02 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.33s
+2024.01.14 18:11:03 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab4/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 18:11:04 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.74s
+2024.01.14 18:11:06 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.79s
+2024.01.14 18:11:49 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab4/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 18:11:52 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.69s
+2024.01.14 18:11:58 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab4/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 18:12:00 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 1.46s
+Exception in thread "pool-8-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-8-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.01.14 18:13:53 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab4/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.14 18:13:56 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2.37s
+2024.01.15 14:15:25 WARN  no build target for: /Users/maxon462/Desktop/Paradygmaty/lab4/Scala/helloscala/src/main/scala/hello.worksheet.sc
+2024.01.15 14:15:27 INFO  time: evaluated worksheet 'hello.worksheet.sc' in 2s
+2024.01.15 14:16:48 INFO  Shutting down server
+2024.01.15 14:16:48 INFO  shutting down Metals
+2024.01.15 14:16:48 INFO  Exiting server

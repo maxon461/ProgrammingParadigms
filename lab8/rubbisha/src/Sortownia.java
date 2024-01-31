@@ -5,22 +5,25 @@ public class Sortownia {
     private List<Smieci> metalList;
     private List<Smieci> szkloList;
     private List<Smieci> plastikList;
-    private List<Smieci> papierList;
+    protected List<Smieci> papierList;
 
     public Sortownia() {
         this.metalList = new ArrayList<>();
         this.szkloList = new ArrayList<>();
         this.plastikList = new ArrayList<>();
         this.papierList = new ArrayList<>();
+        
     }
 
     public void dodajSmieci(List<Smieci> smieciList) {
         for (Smieci smiec : smieciList) {
             sortujSmiec(smiec);
+            // sortujpapier();
         }
     }
 
-    private void sortujSmiec(Smieci smiec) {
+    private void sortujSmiec(Smieci smiec){ 
+    
         switch (smiec.getRodzaj()) {
             case METAL:
                 metalList.add(smiec);
@@ -35,9 +38,14 @@ public class Sortownia {
                 papierList.add(smiec);
                 break;
             default:
-                // Ignoruj nieznany rodzaj odpadu
+                
                 break;
         }
+    }
+
+
+    public Smieci getPapiereEl(int i){
+        return papierList.get(i);
     }
 
     public List<Smieci> getMetalList() {

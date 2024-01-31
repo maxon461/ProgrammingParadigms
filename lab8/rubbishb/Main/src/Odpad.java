@@ -3,13 +3,15 @@ public class Odpad {
     private String nazwa;
     private int dlugosc;
     private int szerokosc;
+    public boolean czyMetal;
 
     
-    public Odpad(RodzajSmiecia rodzaj, String nazwa, int dlugosc, int szerokosc) {
+    public Odpad(RodzajSmiecia rodzaj, String nazwa, int dlugosc, int szerokosc, boolean czyMetal) {
         this.rodzaj = rodzaj;
         this.nazwa = nazwa;
         this.dlugosc = dlugosc;
         this.szerokosc = szerokosc;
+        this.czyMetal = czyMetal;
     }
 
     public Odpad(RodzajSmiecia rodzaj) {

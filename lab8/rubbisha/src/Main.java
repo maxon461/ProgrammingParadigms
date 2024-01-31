@@ -12,7 +12,7 @@ public class Main {
         Smieci plastikowaButelka = new Butelka(Smieci.RodzajOdpadu.PLASTIK, 1.0, false);
         Smieci puszekPoNapoju = new Puszka(Smieci.RodzajOdpadu.METAL, 0.25, "napój gazowany");
 
-        Karton kartonowyOdpad = new Karton(Smieci.RodzajOdpadu.PAPIER, 25.0, true);
+        Karton kartonowyOdpad = new Karton(Smieci.RodzajOdpadu.PAPIER, 25.0, true, true);
 
         List<Smieci> smieciList = new ArrayList<>();
         smieciList.add(pudelko);
@@ -25,11 +25,10 @@ public class Main {
         smieciList.add(plastikowaButelka);
 
         // Tworzenie sortowni
-        Sortownia sortownia = new Sortownia();
+ 
 
-        
-        sortownia.dodajSmieci(smieciList);
-
+        SortujPapier sortownia = new SortujPapier(smieciList);
+      
         
         System.out.println("Metal List:");
         wyswietlListe(sortownia.getMetalList());
@@ -42,6 +41,9 @@ public class Main {
 
         System.out.println("\nPapier List:");
         wyswietlListe(sortownia.getPapierList());
+
+        System.out.println("\nPapierMet List:");
+        wyswietlListe(sortownia.getPapiermetalizowany());
     }
 
     private static void wyswietlListe(List<Smieci> lista) {
